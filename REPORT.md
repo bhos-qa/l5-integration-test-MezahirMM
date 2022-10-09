@@ -42,4 +42,4 @@ chmod +x gradlew
 ![image](https://user-images.githubusercontent.com/71690774/194756591-7e30a467-a583-4881-a011-00fac5df6efe.png)
 ![image](https://user-images.githubusercontent.com/71690774/194756625-367501c0-8ba9-4ac6-bc4e-aac3d917c31e.png)
 
-all my three tests have succes result
+All my three tests have success result
