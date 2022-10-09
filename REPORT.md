@@ -19,6 +19,7 @@ Below, you can see a simple implementation of integration testing by creating a 
 ```
 ## Setup
 First, it is needed to add framework support for Spring framework and invalidate the project to utilize springboot. We also need to add necessary plugins and dependencies to our build.gradle file.
+
 Plugins:
 ```
 plugins{
