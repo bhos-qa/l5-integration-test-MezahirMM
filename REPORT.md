@@ -7,15 +7,15 @@ Integrating different components of an application and evaluating how they behav
 Below, you can see a simple implementation of integration testing by creating a HttpEntity that holds headers and sending a GET request with it. 
 
 ```java
-    TestRestTemplate restTemplate = new TestRestTemplate();
-    HttpHeaders headers = new HttpHeaders();
+TestRestTemplate restTemplate = new TestRestTemplate();
+HttpHeaders headers = new HttpHeaders();
 
-    @Test
-    public void reposTest(){
-        HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange("https://60a21d3f745cd70017576092.mockapi.io/api/v1/repos", HttpMethod.GET, entity, String.class);
-        assertEquals( MediaType.APPLICATION_JSON, response.getHeaders().getContentType());
-    }
+@Test
+public void reposTest(){
+    HttpEntity<String> entity = new HttpEntity<String>(null, headers);
+    ResponseEntity<String> response = restTemplate.exchange("https://60a21d3f745cd70017576092.mockapi.io/api/v1/repos", HttpMethod.GET, entity, String.class);
+    assertEquals( MediaType.APPLICATION_JSON, response.getHeaders().getContentType());
+}
 ```
 ## Setup
 First, it is needed to add framework support for Spring framework and invalidate the project to utilize springboot. We also need to add necessary plugins and dependencies to our build.gradle file.
