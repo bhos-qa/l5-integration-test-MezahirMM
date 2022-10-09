@@ -39,7 +39,7 @@ gradlew should also be given execute permission:
 chmod +x gradlew
 ```
 ## Testing
-![image](https://user-images.githubusercontent.com/71690774/194756591-7e30a467-a583-4881-a011-00fac5df6efe.png)
+![image](https://user-images.githubusercontent.com/71690774/194756885-36079c2b-06ae-4061-9e45-b2523b328e1a.png)
 ![image](https://user-images.githubusercontent.com/71690774/194756625-367501c0-8ba9-4ac6-bc4e-aac3d917c31e.png)
 
-All my three tests have success result
+All my three tests have success results
